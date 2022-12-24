@@ -4,10 +4,804 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Fira+Sans:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Chalanga</title>
 </head>
 <body>
-    <h1>Hello world</h1>
-    
+    <header class="d-none d-sm-block">
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex">
+                        <div class="logos">
+                            <img style="margin-top: 40px;" src="./img/nav1.png" alt="">
+                        </div>
+                        <div class="hard1">
+                            <h2 class="bez">Безупречные поставки по всей России</h2>
+                            <div class="ss">
+                                <button class="btn1">Каталог</button>
+                                <input class="in" type="text" placeholder="Поиск товаров">
+                                <img class="se" src="./img/s.png" alt="">
+                            </div>
+                        </div>
+                        <div class="zay">
+                            <button class="btn2">Отправить запрос</button>
+                            <div class="sasa">
+                                <img src="./img/nav2.png" alt="">
+                                <img style="margin-top: -20px; margin-left: 50px;" src="./img/nav3.png" alt="">
+                                <img style="margin-left: 28px;" src="./img/nav4.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ">
+                    <div class="col-12 d-flex">
+                        <ul class="list">
+                            <li class="item">Главная</li>
+                            <li class="item">О наc</li>
+                            <li class="item">Новости</li>
+                            <li class="item">Контакты</li>
+                            <li class="item">Статьи</li>
+                            <h6 class="nomer">+7 (495) 128-06-45</h6>
+                            <div class="lol">
+                                <img src="./img/nav5.png" alt="">
+                            </div>
+                            <p class="g">г. Москва, ул. Электродная 2 стр. 12  </p>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <header class="d-block d-sm-none">
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="be">Безупречные поставки по всей России</h2>
+                        <p class="pa">г. Москва, ул. Электродная 2 стр. 12</p>
+                        <p class="no">+7 (495) 128-06-45</p>
+                    </div>
+                    <div class="col-12 d-flex">
+                        <div class="hhh">
+                            <img style="margin-right: 24px;" src="./img/r1.png" alt="">
+                            <img style="margin-right: 24px;" src="./img/r2.png" alt="">
+                            <img src="./img/r3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-betwen">
+                    <div class="col-6">
+                        <div class="ll">
+                            <p class="gla">Главная</p>
+                            <p class="gla">Контакты</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <button class="btn8">Отправить запрос</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="oo">
+                            <img src="./img/menu.png" alt="">
+                            <input class="in4" type="text" placeholder="Поиск товаров">
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <div class="loli">
+                            <h1 class="kor">Корона Covid-19 средства <br> защиты</h1>
+                            <div class="opo">
+                                <img src="./img/r5.png" alt="">
+                                <p class="maski">Маски, санитрайзеры и другие средства защиты</p>
+                            </div>
+                            <div class="opo">
+                                <img src="./img/r6.png" alt="">
+                                <p class="maski">Диспенсеры, санитрайзеры и <br> другие средства защиты</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!------------------------------ section start------------------------------- -->
+    <section class="section1 d-none d-sm-block">
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./img/karusel.png" class="d-block w-100" alt="...">
+                    <div class="karu">
+                        <h2 class="prof">Профессиональное комплексное снабжение для <br> компаний, производств и государственных организаций</h2>
+                        <button class="btn4">Перейти в каталог</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/karusel.png" class="d-block w-100" alt="...">
+                    <div class="karu">
+                        <h2 class="prof">Профессиональное комплексное снабжение для <br> компаний, производств и государственных организаций</h2>
+                        <button class="btn4">Перейти в каталог</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./img/karusel.png" class="d-block w-100" alt="...">
+                    <div class="karu">
+                        <h2 class="prof">Профессиональное комплексное снабжение для <br> компаний, производств и государственных организаций</h2>
+                        <button class="btn4">Перейти в каталог</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-4">
+                <h2 class="pop">Популярные категории</h2>
+               </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="ard">
+                        <div class="ili">
+                            <img src="./img/a1.png" alt="">
+                        </div>
+                        <p class="ardp">Ленты VHB</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="ard">
+                        <div class="ili">
+                            <img src="./img/a2.png" alt="">
+                        </div>
+                        <p style="margin-left: 90px;" class="ardp">Клеи</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="ard">
+                        <div class="ili">
+                            <img src="./img/a3.png" alt="">
+                        </div>
+                        <p style="margin-top: 10px;" class="ardp">Абразивы</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="ard">
+                        <div class="ili">
+                            <img src="./img/a4.png" alt="">
+                        </div>
+                        <p  class="ardp">Светоотражающая лента</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="ard">
+                        <div class="ili">
+                            <img src="./img/a5.png" alt="">
+                        </div>
+                        <p  class="ardp">Диспенсеры</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="ard">
+                        <div class="ili">
+                            <img src="./img/a6.png" alt="">
+                        </div>
+                        <p  class="ardp">Скотч</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="ard">
+                        <div class="ili">
+                            <img src="./img/a7.png" alt="">
+                        </div>
+                        <p style="margin-top: 10px;" class="ardp">ПВХ гранулы</p>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="ard">
+                        <div class="ili">
+                            <img src="./img/a8.png" alt="">
+                        </div>
+                        <p style="margin-top: 10px;" class="ardp">Респираторы</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section1 d-block d-sm-none">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h1 class="okok">Популярные категории</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="kord">
+                        <img class="ff" src="./img/skoch.png" alt="">
+                        <p class="len">Лента для <br> разметки желтая <br> (50 мм Х 33 м)</p>
+                        <button class="bb">В корзину</button>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="kord">
+                        <img class="ff" src="./img/skoch.png" alt="">
+                        <p class="len">Лента для <br> разметки желтая <br> (50 мм Х 33 м)</p>
+                        <button class="bb">В корзину</button>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="kord">
+                        <img class="ff" src="./img/skoch.png" alt="">
+                        <p class="len">Лента для <br> разметки желтая <br> (50 мм Х 33 м)</p>
+                        <button class="bb">В корзину</button>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="kord">
+                        <img class="ff" src="./img/skoch.png" alt="">
+                        <p class="len">Лента для <br> разметки желтая <br> (50 мм Х 33 м)</p>
+                        <button class="bb">В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <img src="./img/tayor.png" alt="">
+                </div>
+                <div class="col-6">
+                    <img src="./img/t2.png" alt="">
+                </div>
+                <div class="col-6">
+                    <img src="./img/t2.png" alt="">
+                </div>
+                <div class="col-6">
+                    <img src="./img/tayor.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------------------------- section2 start----------------- ------->
+    <section class="section2 d-none d-sm-block">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <h2 class="poch">Почему мы?</h2>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-2">
+                    <div class="bard">
+                        <img src="./img/b1.png" alt="">
+                        <p class="bardp">Оптовая низкая цена, возможность торговаться</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="bard">
+                        <img src="./img/b2.png" alt="">
+                        <p class="bardp">Доставка напрямую со склада</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="bard">
+                        <img src="./img/b3.png" alt="">
+                        <p class="bardp">Свой отдел маркетинга</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="bard">
+                        <img src="./img/b4.png" alt="">
+                        <p class="bardp">Свой отдел продаж</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="bard">
+                        <img src="./img/b5.png" alt="">
+                        <p class="bardp">Лояльная база корпоративных клиентов с личными связями</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section2 d-block d-sm-none">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <h1 class="poch">Почему мы?</h1>
+                    <img class="ww" src="./img/w1.png" alt="">
+                    <img class="ww" src="./img/w2.png" alt="">
+                    <img class="ww" src="./img/w3.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!---------------------------------- sec3 start------------- -->
+    <section class="section3 d-none d-sm-block">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-4">
+                    <h1 class="zap">Запрос оптовой цены</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <h6 class="poli">Получите бесплатное предложения  <br>
+                        по оптовой цене</h6>
+                        <div class="ol">
+                            <img style="margin-right: 10px;" src="./img/c1.png" alt="">
+                            <img  style="margin-right: 10px;" src="./img/c2.png" alt="">
+                            <img src="./img/c3.png" alt="">
+                        </div>
+                </div>
+                <div class="col-6">
+                    <input class="in2" type="text" placeholder="Введите ваше имя">
+                    <input class="in2" type="text" placeholder="Модель или категория товара">
+                    <input class="in2" type="number" placeholder="Телефон">
+                    <p class="mi">Мы свяжется с вами</p>
+                    <button class="btn5">Отправить</button>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-2">
+                    <h1 class="brend">Бренды</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="dard">
+                        <img src="./img/d1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="dard">
+                        <img src="./img/d2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="dard">
+                        <img src="./img/d3.png" alt="">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="dard">
+                        <img src="./img/d4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section3 d-block d-sm-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="zapos">Запрос оптовой цены</h1>
+                    <input class="in8" type="text" placeholder="Введите ваше имя">
+                    <input class="in8" type="text" placeholder="Введите название продукта, модель">
+                    <input class="in8" type="text" placeholder="Введите телефон или электонную почту">
+                    <p class="nash">Наш специалист свяжется с вами </p>
+                    <button class="btn10">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------------------- sec4 start---------------------- -->
+    <section class="section4 d-none d-sm-block">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-2">
+                    <h3 class="is">Истории</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <div class="er">
+
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div style="background: #FFA620;" class="erd">
+                        <p class="pec">Респираторы и маски </p>
+                        <img style="margin-left: 25%;" src="./img/e1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div style="background: #E10000;" class="erd">
+                        <p class="peci">Диспенсеры и <br> другие <br> средства <br> защиты</p>
+                        <img style="margin-left: 25%;" src="./img/e2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="er">
+
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="er">
+
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div class="er">
+
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <h1 class="nov">Новые бренды</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="dard">
+                        <img src="./img/d4.png" alt="">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="dard">
+                        <img src="./img/d2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="dard">
+                        <img src="./img/d3.png" alt="">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="dard va">
+                        <img src="./img/d1.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="dard">
+                        <img src="./img/d2.png" alt="">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="dard">
+                        <img src="./img/d1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="dard">
+                        <img src="./img/d3.png" alt="">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div style="margin-bottom: 120px;" class="dard">
+                        <img src="./img/d3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section4 d-block d-sm-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="dd">Все бренды</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="tusa">
+                        <img src="./img/t1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="tusa">
+                        <img src="./img/t2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <h1 class="is">Истории</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <img src="./img/x1.png" alt="">
+                </div>
+                <div class="col-6">
+                    <img src="./img/x2.png" alt="">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-7">
+                    <h2 class="novi">Новые бренды</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="tusa vaz">
+                        <img src="./img/t1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="tusa vaz">
+                        <img src="./img/t2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="tusa vaz">
+                        <img src="./img/t1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="tusa vaz">
+                        <img src="./img/t2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="tusa vaz">
+                        <img src="./img/t1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="tusa vaz">
+                        <img src="./img/t2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="tusa vaz">
+                        <img src="./img/t1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div style="margin-bottom: 120px;" class="tusa vaz">
+                        <img src="./img/t2.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ------------------------------sec5 start------------------------------ -->
+    <section class="section5 d-none d-sm-block">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <h2 class="bud">Будьте в курсе всех акций и предложений</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <input class="in3" type="text" placeholder="Имя">
+                </div>
+                <div class="col-4">
+                    <input class="in3" type="email" placeholder="E-mail">
+                </div>
+                <div class="col-4">
+                    <button type="submit" class="btn6">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section5 d-block d-sm-none">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="bud">Будьте в курсе всех акций и предложений</h3>
+                    <input class="in10" type="text" placeholder="Имя">
+                    <input class="in10" type="email" placeholder="E-mail">
+                    <button class="btn11">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!----------------------------------- sec6 start---------------- -->
+    <section class="section6 d-none d-sm-block">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-3">
+                    <h2 class="vi">Вы смотрели</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <div class="fard">
+                        <img src="./img/f1.png" alt="">
+                        <p class="lenta">Лента для разметки желтая <br>  3M™ 471 (50 мм Х 33 м), цвет <br> желтый</p>
+                        <button class="btn7">В корзину</button>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="fard">
+                        <img src="./img/f1.png" alt="">
+                        <p class="lenta">Лента для разметки желтая <br>  3M™ 471 (50 мм Х 33 м), цвет <br> желтый</p>
+                        <button class="btn7">В корзину</button>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="fard">
+                        <img src="./img/f1.png" alt="">
+                        <p class="lenta">Лента для разметки желтая <br>  3M™ 471 (50 мм Х 33 м), цвет <br> желтый</p>
+                        <button class="btn7">В корзину</button>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="fard">
+                        <img src="./img/f1.png" alt="">
+                        <p class="lenta">Лента для разметки желтая <br>  3M™ 471 (50 мм Х 33 м), цвет <br> желтый</p>
+                        <button class="btn7">В корзину</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex">
+                    <h2 class="bezu">Безупречные поставки по всей России</h2>
+                    <div class="lolp">
+                        <img src="./img/nav5.png" alt="">
+                    </div>
+                    <p class="nom">+7 (495) 128-06-45</p>
+                    <div class="ihdi">
+                        <img src="./img/insta.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section6 d-block d-sm-none">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <h3 class="op">Вы смотрели</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <div class="kord">
+                        <img class="ff" src="./img/skoch.png" alt="">
+                        <p class="len">Лента для <br> разметки желтая <br> (50 мм Х 33 м)</p>
+                        <button class="bb">В корзину</button>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="kord">
+                        <img class="ff" src="./img/skoch.png" alt="">
+                        <p class="len">Лента для <br> разметки желтая <br> (50 мм Х 33 м)</p>
+                        <button class="bb">В корзину</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <h1 class="ni">+7 (495) 128-06-45</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------------------------- footer------------------- -->
+    <footer class="d-none d-sm-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="kkk">
+                        <img src="./img/fo.png" alt="">
+                    </div>
+                </div>
+                <div class="col-3">
+                    <p class="inf">Информация</p>
+                    <ul class="list1">
+                        <li class="it">О нас</li>
+                        <li class="it">Новости</li>
+                        <li class="it">Карта сайта</li>
+                        <li class="it">Работа и карьерa</li>
+                        <li class="it">Поставщикам</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <p class="inf">Покупателям</p>
+                    <ul class="list1">
+                        <li class="it">Контакты </li>
+                        <li class="it">Доставка и оплата</li>
+                        <li class="it">Оптовые продажи</li>
+                        <li class="it">Доставка и оплата</li>
+                        <li class="it">Сервисные центры производителей</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <p class="inf">Дополнительно</p>
+                    <ul class="list1">
+                        <li class="it">Политика конфиденциальности</li>
+                        <li class="it">Подарочные сертификаты</li>
+                        <li class="it">Информация </li>
+                        <li class="it">Пресса о нас</li>
+                        <li class="it">Истории успеха</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 d-flex">
+                <p class="long">Copyright © 2020 Висот. Все права защищены.</p>
+                <p class="longer">Висот - Профессиональное комплексное снабжение для компаний, производств и государственных организаций</p>
+                </div>                
+            </div>
+        </div>
+    </footer>
+    <footer class="d-block d-sm-none">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-5">
+                    <img class="end" src="./img/end.png" alt="">
+                    <p class="dodo">Дополнительно</p>
+                  
+                </div>
+                <div class="col-10">
+                    <p class="dodi">Политика конфиденциальности <br>
+                        Подарочные сертификаты <br>
+                        Информация <br>
+                        Истории успеха</p>
+                </div>
+                <div class="col-4">
+                    <p class="dod">Информация</p>
+                   
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-5">
+                    <p class="nac">О нас <br>
+                        Новости <br>
+                        Карта сайта <br>
+                        Пресса о нас <br>
+                        Работа и карьера</p>
+                        <h1 class="pok">Покупателям</h1>
+                      
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-6">
+                    <p class="kon">Контакты <br>
+                        Доставка и оплата <br>
+                        Оптовые продажи</p>
+                        <img style="margin-bottom: 30px;" src="./img/finish.png" alt="">
+                        <img style="margin-bottom: 30px;" src="./img/you.png" alt="">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-11">
+                    <p class="copy">Copyright © 2020 Висот. Все права защищены.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
