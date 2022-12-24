@@ -549,6 +549,9 @@ footer {
         border-radius: 2px;
         border: none;
         margin-left: 20%;
+        font-weight: 500;
+        font-size: 13px;
+        color: #FFFFFF;
     }
 
     .poch {
@@ -750,9 +753,10 @@ footer {
         color: #FFFFFF;
         margin-bottom: 50px;
     }
-    .copy{
+
+    .copy {
         font-weight: 500;
-font-size: 14px;
-color: #FFFFFF;
+        font-size: 14px;
+        color: #FFFFFF;
     }
 }
