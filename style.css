@@ -467,7 +467,9 @@ footer {
         color: #000000;
         margin-bottom: 19px;
     }
-
+.oo{
+    display: flex;
+}
     .in4 {
         border: 2px solid #3F69FF;
         border-radius: 3px;
