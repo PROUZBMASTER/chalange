@@ -424,8 +424,8 @@ footer {
 @media (max-width: 575px) {
     .be {
         margin-top: 20px;
-        font-weight: 600;
-        font-size: 18px;
+        font-weight: 500;
+        font-size: 17px;
         color: #000000;
         margin-bottom: 17px;
     }
@@ -675,6 +675,7 @@ footer {
 
     .section5 {
         height: 397px;
+        width: 100%;
         background: #07032E;
     }
 
@@ -729,6 +730,7 @@ footer {
 
     footer {
         height: 967px;
+        width: 100%;
         background: #232323;
     }
 
