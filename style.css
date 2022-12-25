@@ -482,7 +482,7 @@ footer {
     }
 
     .loli {
-        margin-left: 1%;
+        margin-left: 3%;
         margin-bottom: 39px;
         width: 340px;
         height: 232px;
@@ -548,7 +548,6 @@ footer {
         background: #3F69FF;
         border-radius: 2px;
         border: none;
-        margin-left: 20%;
         font-weight: 500;
         font-size: 13px;
         color: #FFFFFF;
@@ -603,6 +602,9 @@ footer {
         background: #3F69FF;
         border-radius: 5px;
         border: none;
+        font-weight: 500;
+        font-size: 17px;
+        color: #FFFFFF;
     }
 
     .dd {
@@ -610,8 +612,8 @@ footer {
         font-size: 25px;
         color: #000000;
         margin-top: 120px;
-        margin-left: 30%;
         margin-bottom: 50px;
+        text-align: center;
     }
 
     .tusa {
@@ -632,6 +634,7 @@ footer {
         font-weight: 500;
         font-size: 25px;
         color: #000000;
+        text-align: center;
     }
 
     .novi {
@@ -640,6 +643,7 @@ footer {
         color: #000000;
         margin-top: 154px;
         margin-bottom: 50px;
+        text-align: center;
     }
 
     .vaz {
@@ -664,6 +668,7 @@ footer {
         font-size: 15px;
         color: #878787;
         margin-bottom: 15px;
+        margin-left: 5%;
     }
 
     .section5 {
@@ -680,6 +685,8 @@ footer {
         font-weight: 500;
         font-size: 17px;
         color: #FFFFFF;
+        margin-left: 5%;
+
     }
 
     .op {
@@ -755,8 +762,29 @@ footer {
     }
 
     .copy {
+        text-align: center;
         font-weight: 500;
-        font-size: 14px;
+        font-size: 13px;
         color: #FFFFFF;
+    }
+
+    .ioio {
+        display: flex;
+    }
+
+    .dolar {
+        font-weight: 500;
+        font-size: 16px;
+        color: #000000;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-top: 5px;
+    }
+    .popo{
+        display: flex;
+        justify-content: space-between;
+    }
+    .hsgd{
+        margin-right: 5%;
     }
 }
