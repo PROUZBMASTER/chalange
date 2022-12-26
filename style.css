@@ -166,16 +166,21 @@ body {
 .bard {
     margin-top: 35px;
     text-align: center;
-    width: 270px;
+    width: 100%;
     height: 140px;
 }
 
 .bardp {
     margin-top: 15px;
     font-weight: 500;
-    font-size: 17px;
-    text-align: center;
+    font-size: 13px;
     color: #000000;
+}
+
+.illa {
+    margin-top: 15px;
+    width: 230px;
+    height: 200px;
 }
 
 /* mwncdolab;a */
@@ -340,7 +345,7 @@ body {
 
 .fard {
     width: 270px;
-    height: 240px;
+    height: 250px;
     background: #FBFBFB;
     box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.06);
     border-radius: 10px;
@@ -354,14 +359,30 @@ body {
     color: #000000;
 }
 
+.wawa {
+    display: flex;
+    justify-content: space-around;
+}
+
+.som {
+    margin-top: 10px;
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #000000;
+    margin-left: 10px;
+
+}
+
 .btn7 {
-    margin-top: -10px;
     width: 125px;
     height: 40px;
     background: #3F69FF;
     border-radius: 2px;
     border: none;
-    margin-left: 70px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
 }
 
 .bezu {
@@ -467,9 +488,11 @@ footer {
         color: #000000;
         margin-bottom: 19px;
     }
-.oo{
-    display: flex;
-}
+
+    .oo {
+        display: flex;
+    }
+
     .in4 {
         border: 2px solid #3F69FF;
         border-radius: 3px;
@@ -484,9 +507,8 @@ footer {
     }
 
     .loli {
-        margin-left: 3%;
         margin-bottom: 39px;
-        width: 340px;
+        width: 100%;
         height: 232px;
         background: #F8F8F8;
         border: 1px solid #9B9B9B;
@@ -529,6 +551,7 @@ footer {
         width: 160px;
         height: 229px;
         margin-bottom: 30px;
+        scale: 0.9;
     }
 
     .ff {
@@ -564,8 +587,8 @@ footer {
     }
 
     .ww {
-        margin-left: 5%;
         margin-bottom: 30px;
+        width: 100%;
     }
 
     .section2 {
@@ -583,12 +606,16 @@ footer {
     }
 
     .in8 {
-        width: 340px;
+        width: 100%;
         height: 40px;
         border: 1px solid #999999;
         border-radius: 5px;
         padding-left: 15px;
         margin-bottom: 15px;
+        font-weight: 400;
+        font-size: 15px;
+        color: #868686;
+
     }
 
     .nash {
@@ -599,7 +626,7 @@ footer {
 
     .btn10 {
         margin-top: 35px;
-        width: 340px;
+        width: 100%;
         height: 50px;
         background: #3F69FF;
         border-radius: 5px;
@@ -661,7 +688,7 @@ footer {
     }
 
     .in10 {
-        width: 340px;
+        width: 100%;
         height: 55px;
         background: #FFFFFF;
         border-radius: 5px;
@@ -670,7 +697,6 @@ footer {
         font-size: 15px;
         color: #878787;
         margin-bottom: 15px;
-        margin-left: 5%;
     }
 
     .section5 {
@@ -680,7 +706,7 @@ footer {
     }
 
     .btn11 {
-        width: 340px;
+        width: 100%;
         height: 55px;
         background: #3F69FF;
         border-radius: 5px;
@@ -688,7 +714,6 @@ footer {
         font-weight: 500;
         font-size: 17px;
         color: #FFFFFF;
-        margin-left: 5%;
 
     }
 
@@ -784,11 +809,13 @@ footer {
         margin-right: 8px;
         margin-top: 5px;
     }
-    .popo{
+
+    .popo {
         display: flex;
         justify-content: space-between;
     }
-    .hsgd{
+
+    .hsgd {
         margin-right: 5%;
     }
 }
